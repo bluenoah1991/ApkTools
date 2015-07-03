@@ -1,0 +1,32 @@
+apktool
+
+apktool d -d -f com.x.x.x.apk out
+
+
+tips:
+
+d: decode
+-d: debug
+-f force clear out dir
+apk name
+output dir
+
+
+note:
+
+AndroidManifest.xml
+
+<application android:debuggable="true" ... >
+
+
+dex2jar
+
+rename xxx.jar xxx.zip(or .rar)
+
+unzip xxx.zip
+
+.../d2j-dex2jar.bat classes.dex
+
+jd-gui
+
+ok
